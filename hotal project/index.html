@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant App</title>
+    <link rel="stylesheet" href="./Styles/index.css" />
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <style>
+      /* Add CSS styles here */
+      body {
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        position: relative;
+        background-position: center;
+        font-family: Arial, sans-serif; /* Specify your preferred font-family */
+      }
+
+      #home {
+        background-image: url("./assets/heroimg.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative; /* Ensure the div stretches to contain its children */
+        height: 100vh; /* Set the height to fill the viewport */
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#order">Order</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">Restaurant</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <div class="logo">
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home">
+      <div id="lorem">
+        <h1>LOREM IPSUM</h1>
+      </div>
+    </div>
+
+    <!-- detail page -->
+    <div id="detail">
+      <div id="textContainer">
+        <div>
+          <p>
+            Lorem Ipsum has been the <br />
+            industry's standard dummy text
+          </p>
+        </div>
+
+        <div>
+          <p>
+            Lorem Ipsum has been the <br />
+            industry's standard dummy text
+          </p>
+        </div>
+
+        <div>
+          <p>
+            Lorem Ipsum has been the <br />
+            industry's standard dummy text
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Order Page -->
+    <div id="order">
+      <h1>Lorem Ipsum</h1>
+      <div id="container">
+        <div>
+          <div><img src="./assets/rooms.jpg" alt="rooms" /></div>
+          <h2>ROOMS</h2>
+          <p>
+            Lorem Ipsum has been the <br />
+            industry's standard dummy text
+          </p>
+          <button class="learn-more">Learn more</button>
+        </div>
+
+        <div>
+          <div><img src="./assets/dining.jpg" alt="dining" /></div>
+          <h2>DINING</h2>
+          <p>
+            Lorem Ipsum has been the <br />
+            industry's standard dummy text
+          </p>
+          <button class="learn-more">Learn more</button>
+        </div>
+
+        <div>
+          <div>
+            <img src="\assets\pool.jpg" alt="pool.jpg" />
+          </div>
+          <h2>POOL</h2>
+          <p>
+            Lorem Ipsum has been the <br />
+            industry's standard dummy text
+          </p>
+          <button class="learn-more">Learn more</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
